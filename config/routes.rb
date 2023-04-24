@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root to: "toppages#new"
-  resources :toppages, only: %i[index new create]
+  root to: "shops#search"
+  get "shops", to: "shops#show"
 end

@@ -1,6 +1,0 @@
-<p>経度と緯度を入力してください。その近くにあるカフェを調べたいと思います。</p>
-<%= form_with url: toppages_path, local: true, method: :post do |f| %>
-<%= f.text_field :latitude %>
-<%= f.text_field :longitude %>
-<%= f.submit '検索'%>
-<% end %>

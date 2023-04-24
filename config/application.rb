@@ -20,3 +20,4 @@ module CaffeSummary
     # config.eager_load_paths << Rails.root.join("extras")
   end
 end
+OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
